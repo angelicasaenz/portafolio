@@ -12,37 +12,41 @@
     <nav>
         <ul>
             <li>
-                <a href="">Inicio</a>
+                <a href="#">Inicio</a>
             </li>
             <li>
-                <a href="">Sobre mí</a>
+                <a href="#sobre-mi">Sobre mí</a>
             </li>
             <li>
-                <a href="">Tecnologías</a>
+                <a href="#tecnologias">Tecnologías</a>
             </li>
             <li>
-                <a href="">Proyectos</a>
+                <a href="#proyectos">Proyectos</a>
             </li>
             <li>
-                <a href="">Experiencia</a>
+                <a href="#experiencia">Experiencia</a>
             </li>
             <li>
-                <a href="">Educación</a>
+                <a href="#educacion">Educación</a>
             </li>
             <li>
-                <a href="">Contacto</a>
+                <a href="#contacto">Contacto</a>
             </li>
         </ul>
     </nav>
 </header>
 <main>
-    <section>
+    <section id="sobre-mi" class="hero">
         <h2>Sobre mí</h2>
+        <img src="assets/img/foto.jpeg" alt="Foto de Angélica Sáenz">
         <p>
             Soy Angélica Sáenz, estudiante de Ingeniería de Software y técnica en sistemas. Me caracterizo por ser una persona con muchas ganas de aprender, comprometida con mi crecimiento profesional y apasionada por la tecnología. Actualmente estoy fortaleciendo mis conocimientos en desarrollo de software, especialmente en Java, Spring Boot y desarrollo web, mientras construyo proyectos que me permiten aplicar lo aprendido y seguir desarrollando mis habilidades.
         </p>
+        <a href="assets/pdf/hoja-de-vida-angelica-saenz.pdf" download>
+            Descargar CV
+        </a>
     </section>
-    <section>
+    <section id="tecnologias">
         <h2>Tecnologías</h2>
         <ul>
             <li>Java</li>
@@ -51,49 +55,89 @@
             <li>HTML5</li>
         </ul>
     </section>
-    <section>
+    <section id="proyectos">
         <h2>Proyectos</h2>
-        <article>
+        <article class="proyecto">
             <h3>Asgard Pets - Aurora</h3>
             <p>Asgard Pets - Aurora es un proyecto personal desarrollado como parte de mi proceso de aprendizaje en Ingeniería de Software. La idea consiste en una plataforma enfocada en el bienestar animal, donde Asgard Pets representa una distribuidora de productos para mascotas y Aurora una fundación dedicada al rescate, protección y apoyo de animales.
             Este proyecto me permitirá aplicar y fortalecer conocimientos en desarrollo de software mientras avanzo en mi formación, implementando nuevas funcionalidades y tecnologías a medida que continúe aprendiendo. Mi objetivo es convertirlo en un proyecto completo que refleje mi crecimiento como desarrolladora.</p>
         </article>
     </section>
-    <section>
+    <section id="experiencia">
         <h2>Experiencia</h2>
-        <p>A lo largo de mi trayectoria laboral he adquirido experiencia en diferentes áreas de tecnología. Inicié brindando soporte técnico en sitio y remoto, fortaleciendo mis habilidades para diagnosticar y resolver incidencias. Posteriormente me desempeñé como operadora de datacenter, participando en el monitoreo de infraestructura y la continuidad de los servicios. Actualmente trabajo en RCN Televisión en el monitoreo de señales y transmisiones, supervisando la recepción y gestión de contenidos mediante protocolos como SRT y RTMP.
-        Cada una de estas experiencias me ha permitido desarrollar habilidades como el trabajo en equipo, la resolución de problemas, el aprendizaje continuo y la capacidad de adaptarme a nuevos retos tecnológicos.</p>
-    </section>
-    <section>
-        <article>
-            <h3>Técnico en sistemas</h3>
-            <p>SENA - Soacha</p>
+        <article class="experiencia">
+        <h3>Operador de Monitoreo | RCN Televisión</h3>
+        <p>Mayo 2024 - Actualidad</p>
+        <p>
+            Actualmente me desempeño en el monitoreo de señales y transmisiones de televisión, supervisando la recepción, calidad y disponibilidad de contenidos. Trabajo con protocolos de transmisión como SRT y RTMP, realizando seguimiento a incidentes, reportando fallas y apoyando la continuidad de la operación en tiempo real.
+        </p>
         </article>
-        <article>
-            <h3>Ingeniería de Software</h3>
-            <p>Corporación Universitaria Iberoamericana</p>
+
+        <article class="experiencia">
+            <h3>Analista de Operación Junior | Axity</h3>
+            <p>Abril 2022 - Junio 2024</p>
+            <p>
+                Participé en la operación y monitoreo de infraestructura tecnológica dentro del datacenter, realizando seguimiento a equipos y servicios para garantizar su disponibilidad. Además, brindé soporte técnico a usuarios, atendiendo incidentes tanto de manera remota como presencial y contribuyendo a la continuidad de los servicios de TI.
+            </p>
+        </article>
+
+        <article class="experiencia">
+            <h3>Becaria | Axity</h3>
+            <p>Septiembre 2021 - Marzo 2022</p>
+            <p>
+                Inicié mi experiencia profesional brindando soporte técnico en sitio y remoto. Realicé diagnóstico y solución de incidencias relacionadas con hardware, software, sistemas operativos y herramientas corporativas, fortaleciendo mis habilidades de atención al usuario y resolución de problemas.
+            </p>
         </article>
     </section>
-    <section>
+    <section id="educacion">
+        <h2>Educación</h2>
+        <section>
+            <h3>Formación Académica</h3>
+            <article class="educacion">
+                <h4>Ingeniería de Software | Ago 2023 - Actualidad</h4>
+                <p>Corporación Universitaria Iberoamericana</p>
+                <p>Estado: En curso</p>
+            </article>
+            <article class="educacion">
+                <h4>Técnico en sistemas | Mar 2021 - Abr 2022</h4>
+                <p>SENA - Soacha</p>
+                <p>Estado: Graduada</p>
+            </article>
+            <article class="educacion">
+                <h4>Bachiller | 2019</h4>
+                <p>Colegio IED El Salitre Suba</p>
+                <p>Estado: Graduada</p>
+            </article>
+            
+        </section>
+        <section>
+            <h3>Certificaciones</h3>
+            <article class="educacion">
+                <h4>Java Junior Developer | Certiprof</h4>
+                <a href="https://www.credly.com/badges/da969d8a-8c5e-48ee-a300-c9a2ec9e3f13/public_url" target="_blank" rel="noopener noreferrer">Ver credencial</a>
+            </article>
+        </section>
+        
+    </section>
+    <section id="contacto">
         <h2>Contacto</h2>
         <p>Si deseas conocer más sobre mi trabajo, colaborar en un proyecto o ponerte en contacto conmigo,
             puedes encontrarme en las siguientes plataformas:</p>
+        <ul>
+        <li>
+            <a href="https://github.com/angelicasaenz" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li>
+            <a href="https://co.linkedin.com/in/angelica-saenz" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        </li>
+        <li>
+            <a href="mailto:msaenzc06@gmail.com" target="_blank" rel="noopener noreferrer">Contactame por correo</a>
+        </li>
+    </ul>
     </section>
-
 </main>
 
 <footer>
-    <ul>
-        <li>
-            <a href="">Mi GitHub</a>
-        </li>
-        <li>
-            <a href="">Mi LinkedIn</a>
-        </li>
-        <li>
-            <a href="">Contactame por correo</a>
-        </li>
-    </ul>
     <p>
         © 2026 Angélica Sáenz.
     </p>
