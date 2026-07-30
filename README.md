@@ -1,47 +1,68 @@
-# 💼 Portafolio
+# 💼 Portafolio Personal
 
 Bienvenido a mi portafolio personal.
 
-Este repositorio documenta mi proceso de aprendizaje y crecimiento como estudiante de **Ingeniería de Software**. Aquí desarrollaré y mejoraré mi portafolio a medida que aprenda nuevas tecnologías y cree nuevos proyectos.
+Este repositorio documenta mi proceso de aprendizaje y crecimiento como estudiante de **Ingeniería de Software**. Aquí desarrollo mi portafolio mientras fortalezco mis conocimientos en desarrollo web y backend, aplicando las tecnologías que voy aprendiendo en proyectos reales.
 
 ## 🎯 Objetivo
 
-Construir un portafolio profesional que refleje mis conocimientos, proyectos y evolución como desarrolladora de software.
+Construir un portafolio profesional que refleje mi experiencia, proyectos y evolución como desarrolladora de software.
 
 ## 🚀 Tecnologías
 
-Actualmente:
+### Implementadas
 
-* HTML5
+- HTML5
+- CSS3
+- Git
+- GitHub
 
-Próximamente:
+### Próximamente
 
-* CSS3
-* JavaScript
-* TypeScript
-* React
-* Java
-* Spring Boot
-* Git y GitHub
-* Bases de datos
+- JavaScript
+- TypeScript
+- React
+- Java
+- Spring Boot
+- Bases de datos
+
+## ✨ Características actuales
+
+- Diseño moderno con tema oscuro.
+- Navegación con **header sticky**.
+- Sección "Sobre mí".
+- Sección de Tecnologías.
+- Sección de Proyectos.
+- Sección de Experiencia.
+- Sección de Educación y Certificaciones.
+- Sección de Contacto.
+- Descarga de hoja de vida.
+- Diseño construido con **Flexbox**.
+- Estructura HTML semántica.
 
 ## 📂 Proyectos
 
-Los proyectos se irán agregando a medida que avance en mi formación.
+Actualmente el portafolio incluye:
 
-Algunos proyectos planeados:
+- **Portafolio Personal** *(en desarrollo)*.
+- **Asgard Pets - Aurora** *(proyecto personal en construcción)*.
 
-* Portafolio Personal
-* Asgard Pets
-* Gestor de Reservas (Java)
-* Próximos proyectos académicos y personales
+Próximamente se agregarán nuevos proyectos desarrollados durante mi formación.
 
 ## 📈 Estado del proyecto
 
-🚧 En desarrollo.
+🚧 **En desarrollo**
 
-Este repositorio se actualizará constantemente con nuevas funcionalidades, mejoras en el diseño y proyectos desarrollados durante mi proceso de aprendizaje.
+Este proyecto continúa evolucionando a medida que avanzo en mi aprendizaje. Próximamente incorporaré nuevas tecnologías, mejoraré el diseño y haré el sitio completamente responsive.
 
 ## 📫 Contacto
 
-Próximamente agregaré mis enlaces de contacto y redes profesionales.
+🐙 **GitHub:** [angelicasaenz](https://github.com/angelicasaenz)
+
+💼 **LinkedIn:** [Angélica Sáenz](https://co.linkedin.com/in/angelica-saenz)
+
+📧 **Correo:** [msaenzc06@gmail.com](mailto:msaenzc06@gmail.com)
+
+---
+
+⭐ Este repositorio forma parte de mi proceso de aprendizaje y refleja mi crecimiento continuo como futura Ingeniera de Software.
