@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Angelica Saenz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-    <h1>Angélica Sáenz</h1>
+    <div class="logo">
+        <img src="assets/img/favicon.png" alt="Logo de Angélica Sáenz">
+        <div class="logo-texto">
+            <h1>Angélica Sáenz</h1>
+            <p class="desc">Software Engineering Student</p>
+        </div>
+    </div>
+
     <nav>
-        <ul>
+        <ul class="menu">
             <li>
-                <a href="#">Inicio</a>
+                <a href="#" >Inicio</a>
             </li>
             <li>
                 <a href="#sobre-mi">Sobre mí</a>
@@ -38,17 +51,19 @@
 <main>
     <section id="sobre-mi" class="hero">
         <h2>Sobre mí</h2>
-        <img src="assets/img/foto.jpeg" alt="Foto de Angélica Sáenz">
-        <p>
-            Soy Angélica Sáenz, estudiante de Ingeniería de Software y técnica en sistemas. Me caracterizo por ser una persona con muchas ganas de aprender, comprometida con mi crecimiento profesional y apasionada por la tecnología. Actualmente estoy fortaleciendo mis conocimientos en desarrollo de software, especialmente en Java, Spring Boot y desarrollo web, mientras construyo proyectos que me permiten aplicar lo aprendido y seguir desarrollando mis habilidades.
-        </p>
+        <div class="hero-contenido">
+            <p>
+                Soy Angélica Sáenz, estudiante de Ingeniería de Software y técnica en sistemas. Me caracterizo por ser una persona con muchas ganas de aprender, comprometida con mi crecimiento profesional y apasionada por la tecnología. Actualmente estoy fortaleciendo mis conocimientos en desarrollo de software, especialmente en Java, Spring Boot y desarrollo web, mientras construyo proyectos que me permiten aplicar lo aprendido y seguir desarrollando mis habilidades.
+            </p>
+            <img src="assets/img/foto.jpeg" alt="Foto de Angélica Sáenz">
+        </div>
         <a href="assets/pdf/hoja-de-vida-angelica-saenz.pdf" download>
-            Descargar CV
+                Descargar CV
         </a>
     </section>
     <section id="tecnologias">
         <h2>Tecnologías</h2>
-        <ul>
+        <ul class="tecnologias">
             <li>Java</li>
             <li>SpringBoot</li>
             <li>Git y GitHub</li>
@@ -123,7 +138,7 @@
         <h2>Contacto</h2>
         <p>Si deseas conocer más sobre mi trabajo, colaborar en un proyecto o ponerte en contacto conmigo,
             puedes encontrarme en las siguientes plataformas:</p>
-        <ul>
+        <ul class="redes">
         <li>
             <a href="https://github.com/angelicasaenz" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
