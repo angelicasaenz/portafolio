@@ -210,9 +210,96 @@ section{
 
 .github:hover {
     transform: translateY(-4px);
-    box-shadow: 0px 2px 10px #9029c7;
+    box-shadow: 0px 2px 6px #9029c7;
 }
-/* Experiencia */
+/* Experiencia Timeline*/
+
+/* EXPERIENCIA TIMELINE */
+
+.timeline{
+    position: relative;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+
+.experiencia{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* Parte izquierda de la linea */
+
+.linea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Circulo */
+
+.circulo{
+    width: 18px;
+    height: 18px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+}
+
+
+/* Barra vertical */
+
+.barra{
+    width: 3px;
+    background-color: #8a2be2;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+
+/* Contenido */
+
+.contenido{
+    flex: 1;
+}
+
+
+.contenido h3{
+    margin-bottom: 8px;
+}
+
+
+.fecha{
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+
+.contenido ul{
+    padding-left: 20px;
+}
+
+
+.contenido li{
+    margin-bottom: 8px;
+}
+
+.circulo{
+    width: 18px;
+    height: 18px;
+    background-color: #b46cff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #b46cff;
+}
+
+
+.barra{
+    width: 2px;
+    background-color: #444;
+}
 
 /* Footer */
 
