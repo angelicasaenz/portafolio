@@ -15,17 +15,17 @@
 <body>
     <header>
     <div class="logo">
-        <img src="assets/img/favicon.png" alt="Logo de Angélica Sáenz">
+        <a href="#top"><img src="assets/img/favicon.png" alt="Logo de Angélica Sáenz"></a>
         <div class="logo-texto">
             <h1>Angélica Sáenz</h1>
-            <p class="desc">Software Engineering Student</p>
+            <p class="desc">Estudiante de Ingeniería de Software</p>
         </div>
     </div>
 
     <nav>
         <ul class="menu">
             <li>
-                <a href="#" >Inicio</a>
+                <a href="#top" >Inicio</a>
             </li>
             <li>
                 <a href="#sobre-mi">Sobre mí</a>
@@ -52,7 +52,7 @@
     <section id="sobre-mi" class="hero">
         <h2>Sobre mí</h2>
         <div class="hero-contenido">
-            <p>
+            <p class = "hero-texto">
                 Soy Angélica Sáenz, estudiante de Ingeniería de Software y técnica en sistemas. Me caracterizo por ser una persona con muchas ganas de aprender, comprometida con mi crecimiento profesional y apasionada por la tecnología. Actualmente estoy fortaleciendo mis conocimientos en desarrollo de software, especialmente en Java, Spring Boot y desarrollo web, mientras construyo proyectos que me permiten aplicar lo aprendido y seguir desarrollando mis habilidades.
             </p>
             <img src="assets/img/foto.jpeg" alt="Foto de Angélica Sáenz">
@@ -63,20 +63,83 @@
     </section>
     <section id="tecnologias">
         <h2>Tecnologías</h2>
-        <ul class="tecnologias">
-            <li>Java</li>
-            <li>SpringBoot</li>
-            <li>Git y GitHub</li>
-            <li>HTML5</li>
-        </ul>
+        <div class="tecnologias-grid">
+
+        <div class="tecnologia">
+            <img src="assets/icons/java-original.svg" alt="Logo de Java">
+            <p>Java</p>
+        </div>
+
+        <div class="tecnologia">
+            <img src="assets/icons/spring-original.svg" alt="Logo de Spring Boot">
+            <p>Spring Boot</p>
+        </div>
+
+        <div class="tecnologia">
+            <img src="assets/icons/html5-original.svg" alt="Logo de HTML5">
+            <p>HTML5</p>
+        </div>
+
+        <div class="tecnologia">
+            <img src="assets/icons/css3-original.svg" alt="Logo de CSS3">
+            <p>CSS3</p>
+        </div>
+
+        <div class="tecnologia">
+            <img src="assets/icons/git-original.svg" alt="Logo de Git">
+            <p>Git</p>
+        </div>
+
+        <div class="tecnologia">
+            <img src="assets/icons/github-white-icon.webp" alt="Logo de GitHub">
+            <p>GitHub</p>
+        </div>
+        <div class="tecnologia">
+            <img src="assets/icons/logo-aws-blanco (1).webp" alt="Logo de AWS">
+            <p>AWS</p>
+        </div>
+    </div>
     </section>
     <section id="proyectos">
         <h2>Proyectos</h2>
-        <article class="proyecto">
+        <div class="contenedor-proyectos">
+            <article class="proyecto">
             <h3>Asgard Pets - Aurora</h3>
-            <p>Asgard Pets - Aurora es un proyecto personal desarrollado como parte de mi proceso de aprendizaje en Ingeniería de Software. La idea consiste en una plataforma enfocada en el bienestar animal, donde Asgard Pets representa una distribuidora de productos para mascotas y Aurora una fundación dedicada al rescate, protección y apoyo de animales.
-            Este proyecto me permitirá aplicar y fortalecer conocimientos en desarrollo de software mientras avanzo en mi formación, implementando nuevas funcionalidades y tecnologías a medida que continúe aprendiendo. Mi objetivo es convertirlo en un proyecto completo que refleje mi crecimiento como desarrolladora.</p>
+            <p>Aplicación web para administrar una tienda de mascotas y una fundación de rescate animal.</p>
+            <div class="tec">
+                <img src="assets/icons/java-original.svg" alt="Logo Java">
+                <img src="assets/icons/spring-original.svg" alt="Logo Spring Boot">
+            </div>
+            <div class="github">
+                <img src="assets/icons/github-white-icon.webp" alt="Logo de GitHub">
+                <a href="https://github.com/angelicasaenz/asgard-pets-aurora" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+            </div>
         </article>
+        <article class="proyecto">
+            <h3>Prueba 1</h3>
+            <p>Próximamente agregaré un nuevo proyecto desarrollado durante mi proceso de aprendizaje.</p>
+            <div class="tec">
+                <img src="assets/icons/java-original.svg" alt="Logo Java">
+                <img src="assets/icons/spring-original.svg" alt="Logo Spring Boot">
+            </div>
+            <div class="github">
+                <img src="assets/icons/github-white-icon.webp" alt="Logo de GitHub">
+                <a href="https://github.com/angelicasaenz/asgard-pets-aurora" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+            </div>
+        </article>
+        <article class="proyecto">
+            <h3>Prueba 2</h3>
+            <p>Próximamente agregaré un nuevo proyecto desarrollado durante mi proceso de aprendizaje.</p>
+            <div class="tec">
+                <img src="assets/icons/java-original.svg" alt="Logo Java">
+                <img src="assets/icons/spring-original.svg" alt="Logo Spring Boot">
+            </div>
+            <div class="github">
+                <img src="assets/icons/github-white-icon.webp" alt="Logo de GitHub">
+                <a href="https://github.com/angelicasaenz/asgard-pets-aurora" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+            </div>
+        </article>
+        </div>
     </section>
     <section id="experiencia">
         <h2>Experiencia</h2>
@@ -146,7 +209,7 @@
             <a href="https://co.linkedin.com/in/angelica-saenz" target="_blank" rel="noopener noreferrer">Linkedin</a>
         </li>
         <li>
-            <a href="mailto:msaenzc06@gmail.com" target="_blank" rel="noopener noreferrer">Contactame por correo</a>
+            <a href="mailto:msaenzc06@gmail.com" rel="noopener noreferrer">Contactame por correo</a>
         </li>
     </ul>
     </section>
@@ -156,6 +219,20 @@
     <p>
         © 2026 Angélica Sáenz.
     </p>
+
+    <section id="Redes">
+        <ul class="redes">
+        <li>
+            <a href="https://github.com/angelicasaenz" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github-white-icon.webp" alt="Logo de github"></a>
+        </li>
+        <li>
+            <a href="https://co.linkedin.com/in/angelica-saenz" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin-original.svg" alt=""></a>
+        </li>
+        <li>
+            <a href="mailto:msaenzc06@gmail.com"  rel="noopener noreferrer">Correo</a>
+        </li>
+    </ul>
+    </section>
 </footer>
 
 </body>
