@@ -187,7 +187,7 @@ section{
 .github {
     display: flex;
     gap: 5px;
-    width: 58%;
+    width: 60%;
     justify-content: center;
     margin: 20px auto;   
     border: 1px solid #9029c7;
@@ -198,14 +198,14 @@ section{
 
 }
 .github img {
-    width: 18px;
+    width: 16px;
     object-fit: contain;
 }
 
 .github a {
     color: #dddcdd;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .github:hover {
@@ -215,92 +215,67 @@ section{
 /* Experiencia Timeline*/
 
 /* EXPERIENCIA TIMELINE */
-
-.timeline{
-    position: relative;
-    max-width: 900px;
-    margin: 50px auto;
-}
-
-
-.experiencia{
+.timeline {
     display: flex;
-    gap: 30px;
-    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.experiencia {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    align-items: stretch;
+    justify-content: flex-start;
 }
 
 
-/* Parte izquierda de la linea */
 
-.linea{
+.linea {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-/* Circulo */
-
-.circulo{
-    width: 18px;
-    height: 18px;
-    background-color: #8a2be2;
-    border-radius: 50%;
-}
-
-
-/* Barra vertical */
-
-.barra{
+    margin-top: 12px;
+    gap: 10px;
     width: 3px;
-    background-color: #8a2be2;
-    flex-grow: 1;
-    margin-top: 5px;
+
+}
+.circulo {
+    width: 13px;
+    height: 13px;
+    background-color: #8c4daf;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #9029c7; 
+    transition: all 0.3s;
 }
 
+.experiencia:hover .circulo{
+    background-color: #9029c7;
+        box-shadow: 0 0 9px #9029c7;    
+}
 
-/* Contenido */
-
-.contenido{
+.barra {
+    width: 1px;
+    flex: 1;
+    background-color: #7f7485;
+    
+}
+.contenido {
     flex: 1;
 }
 
-
-.contenido h3{
-    margin-bottom: 8px;
+.fecha {
+    color: #a19ca1;
+    font-size: small;
 }
 
-
-.fecha{
-    color: #aaa;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
+.contenido ul {
+    padding: 20px 30px;
 }
 
-
-.contenido ul{
-    padding-left: 20px;
+.experiencia:hover h3{
+    transition: all 0.4s;
+    color: #9029c7;
 }
-
-
-.contenido li{
-    margin-bottom: 8px;
-}
-
-.circulo{
-    width: 18px;
-    height: 18px;
-    background-color: #b46cff;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #b46cff;
-}
-
-
-.barra{
-    width: 2px;
-    background-color: #444;
-}
-
 /* Footer */
 
 
