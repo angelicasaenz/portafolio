@@ -309,6 +309,43 @@ section{
 .educacion-card:hover h4 {
     color: #9029c7;
 }
+.educacion-card:hover {
+    transform: scale(1.02);
+}
+/* Certificaciones */
+.certificaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.certificacion-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all .3s ease;
+}
+.certificacion-card img {
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    transition: transform .3s ease;
+}
+.certificacion-card h4 {
+    transition: color .3s ease;
+}
+.certificacion-card:hover img {
+    transform: scale(1.08);
+}
+.certificacion-card:hover h4 {
+    color: #9029c7;
+}
+.certificacion-card:hover {
+    filter: drop-shadow(0 0 7px #9029c7);
+}
 
 
 /* Footer */
