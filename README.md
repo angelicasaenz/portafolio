@@ -1,16 +1,20 @@
-# 💼 Portafolio Personal
+# 💜 Portafolio Personal
 
 Bienvenido a mi portafolio personal.
 
-Este repositorio documenta mi proceso de aprendizaje y crecimiento como estudiante de **Ingeniería de Software**. Aquí desarrollo mi portafolio mientras fortalezco mis conocimientos en desarrollo web y backend, aplicando las tecnologías que voy aprendiendo en proyectos reales.
+Este repositorio reúne mi proceso de aprendizaje como estudiante de **Ingeniería de Software**, donde aplico los conocimientos adquiridos en desarrollo web para construir un sitio que refleje mi perfil profesional, experiencia y proyectos.
+
+---
 
 ## 🎯 Objetivo
 
-Construir un portafolio profesional que refleje mi experiencia, proyectos y evolución como desarrolladora de software.
+Desarrollar un portafolio moderno, profesional y escalable que muestre mi crecimiento como futura Ingeniera de Software y sirva como carta de presentación para oportunidades laborales.
 
-## 🚀 Tecnologías
+---
 
-### Implementadas
+## 🚀 Tecnologías utilizadas
+
+### Actualmente
 
 - HTML5
 - CSS3
@@ -24,45 +28,58 @@ Construir un portafolio profesional que refleje mi experiencia, proyectos y evol
 - React
 - Java
 - Spring Boot
-- Bases de datos
+- Bases de Datos SQL
 
-## ✨ Características actuales
+---
 
-- Diseño moderno con tema oscuro.
-- Navegación con **header sticky**.
-- Sección "Sobre mí".
-- Sección de Tecnologías.
-- Sección de Proyectos.
-- Sección de Experiencia.
-- Sección de Educación y Certificaciones.
-- Sección de Contacto.
-- Descarga de hoja de vida.
-- Diseño construido con **Flexbox**.
-- Estructura HTML semántica.
+## ✨ Características
+
+- 🎨 Diseño moderno con tema oscuro.
+- 📌 Header fijo (Sticky Navigation).
+- 👩 Sección "Sobre mí".
+- 💻 Tecnologías organizadas por categorías.
+- 📂 Sección de proyectos.
+- 💼 Experiencia profesional.
+- 🎓 Educación y certificaciones.
+- 📬 Sección de contacto con acceso a GitHub, LinkedIn y correo.
+- 📄 Descarga de hoja de vida.
+- ✨ Animaciones y efectos *hover*.
+- 📐 Diseño construido con **Flexbox** y **CSS Grid**.
+- 🏷️ HTML semántico y estructura organizada.
+
+---
 
 ## 📂 Proyectos
 
-Actualmente el portafolio incluye:
+Actualmente el portafolio presenta:
 
-- **Portafolio Personal** *(en desarrollo)*.
-- **Asgard Pets - Aurora** *(proyecto personal en construcción)*.
+- **Portafolio Personal** *(este proyecto)*.
+- **Asgard Pets - Aurora** *(proyecto personal en desarrollo)*.
 
-Próximamente se agregarán nuevos proyectos desarrollados durante mi formación.
+Nuevos proyectos serán incorporados a medida que avance en mi formación.
+
+---
 
 ## 📈 Estado del proyecto
 
 🚧 **En desarrollo**
 
-Este proyecto continúa evolucionando a medida que avanzo en mi aprendizaje. Próximamente incorporaré nuevas tecnologías, mejoraré el diseño y haré el sitio completamente responsive.
+Próximas mejoras:
 
-## 📫 Contacto
-
-🐙 **GitHub:** [angelicasaenz](https://github.com/angelicasaenz)
-
-💼 **LinkedIn:** [Angélica Sáenz](https://co.linkedin.com/in/angelica-saenz)
-
-📧 **Correo:** [msaenzc06@gmail.com](mailto:msaenzc06@gmail.com)
+- Responsive Design para dispositivos móviles.
+- Animaciones con JavaScript.
+- Mejoras de accesibilidad.
+- Optimización del rendimiento.
+- Nuevos proyectos desarrollados con Java y Spring Boot.
 
 ---
 
-⭐ Este repositorio forma parte de mi proceso de aprendizaje y refleja mi crecimiento continuo como futura Ingeniera de Software.
+## 📫 Contacto
+
+- 🐙 GitHub: https://github.com/angelicasaenz
+- 💼 LinkedIn: https://co.linkedin.com/in/angelica-saenz
+- 📧 Correo: msaenzc06@gmail.com
+
+---
+
+⭐ *Diseñado y desarrollado con el💜 por Angélica Sáenz.*
