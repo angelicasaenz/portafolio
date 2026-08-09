@@ -96,6 +96,10 @@ a {
     max-width: 700px;
 }
 
+.menu-hamburguesa {
+    display: none;
+}x
+
 /* Section */
 
 section{
@@ -353,7 +357,6 @@ section{
 .redes {
     display: flex;
     list-style: none;
-    gap: 10px;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -410,13 +413,201 @@ footer {
     color: #d6d6d6;
 }
 
+@media (max-width: 600px) {
 
+    /* Secciones */
+    section {
+    padding: 25px 20px;
+    }
 
+    /* Header */
+    header {
+        padding: 15px 20px;
+    }
 
+    .menu {
+        display: none;
+    }
 
+    .logo {
+        gap: 8px;
+    }
 
+    .logo img {
+        width: 55px;
+    }
 
+    .logo-texto h1 {
+        font-size: 30px;
+    }
 
+    .logo-texto p {
+        font-size: 14px;
+    }
 
+    /* Sobre mí */
 
+    #sobre-mi h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
 
+    .hero-contenido {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero img {
+        width: 120px;
+        height: 120px;
+        order: -1;
+    }
+
+    .hero-texto {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-texto {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Descargar CV */
+
+    #sobre-mi > a {
+        display: block;
+        width: fit-content;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+
+    /* Tecnologías */
+
+    #tecnologias h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .tecnologias-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px 10px;
+        margin-top: 25px;
+    }
+    .tecnologia:last-child {
+    grid-column: 2;
+    }
+
+    .tecnologia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tecnologia img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .tecnologia p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    /* Proyectos */
+    #proyectos h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .contenedor-proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 90%;
+    }
+
+    /* Experiencia */
+    #experiencia h2 {
+        text-align: center;
+    }
+
+    .linea {
+    width: 2px;
+    }
+
+    .contenido ul {
+    padding: 10px 20px;
+    }
+
+    .experiencia {
+    gap: 28px;
+    margin-top: 2px;
+    }
+
+    /* Educación */
+    #educacion h2 {
+        text-align: center;
+    }
+    #educacion h3 {
+    margin-top: 25px;
+    }
+
+    .formacion-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+    }
+
+    /* Certificados*/
+
+    .certificaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    gap: 2px;
+    }
+
+    .certificacion-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    }
+
+    .certificacion-card h4 {
+    font-size: 12px;
+    }
+
+    /* Contacto */ 
+
+    .redes {
+    gap: 10px;
+    }
+
+    .red a {
+        min-width: 90px;
+        padding: 5px;
+        font-size: ;
+    }
+
+    .redes img {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: 5px;
+    }
+
+}
