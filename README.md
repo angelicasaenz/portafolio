@@ -8,27 +8,22 @@ Este repositorio reúne mi proceso de aprendizaje como estudiante de **Ingenier�
 
 ## 🎯 Objetivo
 
-Desarrollar un portafolio moderno, profesional y escalable que muestre mi crecimiento como futura Ingeniera de Software y sirva como carta de presentación para oportunidades laborales.
+Desarrollar un portafolio moderno, profesional, responsive e interactivo que muestre mi crecimiento como futura Ingeniera de Software y sirva como carta de presentación para oportunidades laborales.
 
 ---
 
 ## 🚀 Tecnologías utilizadas
 
-### Actualmente
+### Implementadas
 
 - HTML5
 - CSS3
 - Git
 - GitHub
 
-### Próximamente
+### En desarrollo
 
 - JavaScript
-- TypeScript
-- React
-- Java
-- Spring Boot
-- Bases de Datos SQL
 
 ---
 
@@ -37,7 +32,7 @@ Desarrollar un portafolio moderno, profesional y escalable que muestre mi crecim
 - 🎨 Diseño moderno con tema oscuro.
 - 📌 Header fijo (Sticky Navigation).
 - 👩 Sección "Sobre mí".
-- 💻 Tecnologías organizadas por categorías.
+- 💻 Sección de tecnologías.
 - 📂 Sección de proyectos.
 - 💼 Experiencia profesional.
 - 🎓 Educación y certificaciones.
@@ -46,6 +41,17 @@ Desarrollar un portafolio moderno, profesional y escalable que muestre mi crecim
 - ✨ Animaciones y efectos *hover*.
 - 📐 Diseño construido con **Flexbox** y **CSS Grid**.
 - 🏷️ HTML semántico y estructura organizada.
+- 📱 Diseño responsive para diferentes tamaños de pantalla.
+
+### Próximas mejoras
+
+- 🍔 Menú hamburguesa para dispositivos móviles.
+- 🌙☀️ Modo oscuro y modo claro.
+- 💾 Persistencia de la preferencia de tema.
+- ✨ Mejoras de interacción y animaciones con JavaScript.
+- ♿ Mejoras de accesibilidad.
+- ⚡ Optimización del rendimiento.
+- 📱 Pruebas y ajustes para diferentes dispositivos.
 
 ---
 
@@ -54,7 +60,7 @@ Desarrollar un portafolio moderno, profesional y escalable que muestre mi crecim
 Actualmente el portafolio presenta:
 
 - **Portafolio Personal** *(este proyecto)*.
-- **Asgard Pets - Aurora** *(proyecto personal en desarrollo)*.
+- **Asgard Pets - Aurora** *(próximo proyecto personal)*.
 
 Nuevos proyectos serán incorporados a medida que avance en mi formación.
 
@@ -64,13 +70,9 @@ Nuevos proyectos serán incorporados a medida que avance en mi formación.
 
 🚧 **En desarrollo**
 
-Próximas mejoras:
+El portafolio se encuentra en proceso de construcción y mejora continua.
 
-- Responsive Design para dispositivos móviles.
-- Animaciones con JavaScript.
-- Mejoras de accesibilidad.
-- Optimización del rendimiento.
-- Nuevos proyectos desarrollados con Java y Spring Boot.
+Actualmente se está trabajando en la implementación de funcionalidades interactivas con JavaScript y en el perfeccionamiento de la experiencia responsive.
 
 ---
 
@@ -82,4 +84,4 @@ Próximas mejoras:
 
 ---
 
-⭐ *Diseñado y desarrollado con el💜 por Angélica Sáenz.*
+⭐ *Diseñado y desarrollado con el 💜 por Angélica Sáenz.*
