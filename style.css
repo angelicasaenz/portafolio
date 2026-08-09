@@ -98,8 +98,7 @@ a {
 
 .menu-hamburguesa {
     display: none;
-}x
-
+}
 /* Section */
 
 section{
@@ -143,7 +142,7 @@ section{
 .contenedor-proyectos {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 15px;
 
@@ -284,7 +283,7 @@ section{
 .formacion-grid {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center;
 }
 #educacion h3 {
@@ -413,7 +412,50 @@ footer {
     color: #d6d6d6;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+
+    /* Menú */
+    .menu {
+        display: none;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+    }
+
+    /* Proyectos */
+    .contenedor-proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .proyecto {
+        width: 90%;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px){
+
+    .formacion-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educacion-card {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .tecnologias-grid {
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px 10px;
+        margin-top: 25px;
+    }
+   
+}
+@media (max-width: 800px) {
 
     /* Secciones */
     section {
@@ -564,6 +606,7 @@ footer {
     gap: 20px;
     align-items: stretch;
     justify-content: center;
+    padding-left: 35px;
     }
 
     /* Certificados*/
@@ -596,7 +639,7 @@ footer {
     .red a {
         min-width: 90px;
         padding: 5px;
-        font-size: ;
+        font-size: 12px;
     }
 
     .redes img {
@@ -611,3 +654,15 @@ footer {
     }
 
 }
+@media (max-width: 1150px) {
+
+    .menu {
+        display: none;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+    }
+
+}
+
