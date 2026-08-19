@@ -418,22 +418,58 @@ footer {
 
 /* Menú hamburguesa */
 @media (max-width: 1100px) {
-
     .menu-hamburguesa {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        color: #f5f5f5;
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        transition: all 0.3s ease;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10000;
+    }
+
+    .menu-hamburguesa span {
+        width: 28px;
+        height: 3px;
+        background-color: #9029c7;
+        border-radius: 3px;
+        transition: all 0.3s ease;
         display: block;
-    }.nav-menu {
-    display: block;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
+    }
 
-    padding: 50px;
+    .menu-hamburguesa.activo span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+        background-color: #b14cff;
+    }
 
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.25s ease;
+    .menu-hamburguesa.activo span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-hamburguesa.activo span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+        background-color: #b14cff;
+    }
+
+    .nav-menu {
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        padding: 50px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.25s ease;
     }
 
     .nav-menu.activo {
@@ -441,15 +477,10 @@ footer {
         visibility: visible;
     }
 
-    .nav-menu.activo .menu {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
     .nav-menu .menu {
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
     }
 
     .nav-menu .menu a {
@@ -457,8 +488,21 @@ footer {
         color: #9029c7;
         text-shadow: 0 0 8px rgba(144, 41, 199, 0.7);
     }
+
     .nav-menu .menu a:hover {
-    text-shadow: 0 0 14px rgba(144, 41, 199, 1);
+        text-shadow: 0 0 14px rgba(144, 41, 199, 1);
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.94);
+        z-index: 999;
+    }
+
+    .overlay.activo {
+        display: block;
     }
 }
 
@@ -753,4 +797,11 @@ footer {
     top: 15px;
     right: 15px;
     z-index: 10000;
+}
+
+/* Temporal */
+
+.certificaciones-grid:has(.certificacion-card:only-child) {
+    display: flex;
+    justify-content: center;
 }
