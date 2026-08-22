@@ -42,10 +42,10 @@ Desarrollar un portafolio moderno, profesional, responsive e interactivo que mue
 - 📐 Diseño construido con **Flexbox** y **CSS Grid**.
 - 🏷️ HTML semántico y estructura organizada.
 - 📱 Diseño responsive para diferentes tamaños de pantalla.
+- 🍔 Menú hamburguesa para dispositivos móviles.
 
 ### Próximas mejoras
 
-- 🍔 Menú hamburguesa para dispositivos móviles.
 - 🌙☀️ Modo oscuro y modo claro.
 - 💾 Persistencia de la preferencia de tema.
 - ✨ Mejoras de interacción y animaciones con JavaScript.
